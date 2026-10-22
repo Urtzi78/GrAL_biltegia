@@ -18,7 +18,7 @@ Columnas nuevas por fila:
     is_success_lenient    -> igual que is_success_strict (ver nota mas abajo)
     excluded_from_comparison -> True si final_status esta en
                                  EXCLUDED_FROM_COMPARISON_STATUSES (finalmente
-                                 sa ha dejado vacio en este TFG: ninguna categoria
+                                 se ha dejado vacio en este TFG: ninguna categoria
                                  se ha excluido de la comparacion en la practica)
     redundant_retry_after_completion -> True si final_status == PARTIAL_SUCCESS
 

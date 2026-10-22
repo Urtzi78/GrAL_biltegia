@@ -4,7 +4,7 @@
 
 ## Proiektuaren egitura
 
-- `scriptak/`: datu-multzoak sortzeko, probak exekutatzeko eta emaitzak aztertzeko Python scriptak. Besteak beste, `build_dataset.py`, `build_final_dataser.py` eta `build_review_template.py` daude.
+- `scriptak/`: datu-multzoak sortzeko, probak exekutatzeko eta emaitzak aztertzeko Python scriptak. Besteak beste, `build_dataset.py`, `build_final_dataset.py` eta `build_review_template.py` daude.
 - `proba-kasuak/`: proba-kasuen definizioak JSON formatuan.
 
 JavaFX eta Avalonia aplikazioen iturburu-kodearen `.zip` fitxategiak biltegiaren **Releases** atalean daude, deskargatzeko prest.
