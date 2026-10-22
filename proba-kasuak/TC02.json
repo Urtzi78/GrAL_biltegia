@@ -1,0 +1,18 @@
+{
+  "id": "TC02",
+  "name": "Application Navigation",
+  "description": "Navigate between the main application sections and interact with the main layout.",
+  "preconditions": [
+    "The application is running.",
+    "The main application window is displayed."
+  ],
+  "test_data": {},
+  "goal": "Navigate through the Users, Settings, Modules and Dashboard sections using the application's navigation controls. Resize the main content area by moving the divider between the navigation panel and the content area.",
+  "success_criteria": [
+    "The Users section has been displayed.",
+    "The Settings section has been displayed.",
+    "The Modules section has been displayed.",
+    "The Dashboard section has been displayed.",
+    "The divider between the navigation panel and content area has been moved."
+  ]
+}

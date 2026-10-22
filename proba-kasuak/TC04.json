@@ -1,0 +1,26 @@
+{
+  "id": "TC04",
+  "name": "Settings",
+  "description": "Modify the application's language, backup date, and volume settings.",
+  "preconditions": [
+    "The application is running.",
+    "The main application window is displayed.",
+    "The Settings section is accessible.",
+    "The application language is currently set to English."
+  ],
+  "test_data": {
+    "language": "Spanish",
+    "backup_date": "2027-10-24",
+    "volume": 75
+  },
+  "goal": "In the Settings section, change the language from its default value to Spanish. Use the date picker to select the specified backup date, navigating through the calendar to the required year and month rather than selecting a date from the initially displayed calendar. Change the volume to 75 using the volume slider.",
+  "success_criteria": [
+    "The language has been changed from English to Spanish.",
+    "The date picker has been opened.",
+    "The calendar has been navigated to a different year.",
+    "The calendar has been navigated to a different month.",
+    "The specified backup date has been selected from the date picker.",
+    "The volume has been changed to 75.",
+    "The selected language, backup date, and volume are visibly reflected in the interface."
+  ]
+}

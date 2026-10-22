@@ -1,0 +1,25 @@
+{
+  "id": "TC05",
+  "name": "Dashboard Counters and Drag & Drop in Modules",
+  "description": "Check the module counters on the Dashboard and move a module between lists in the Modules tab.",
+  "preconditions": [
+    "The application is running.",
+    "The main application window is displayed.",
+    "The Dashboard is accessible.",
+    "The Modules tab is accessible.",
+    "At least one module is present in Available Modules."
+  ],
+  "test_data": {},
+  "goal": "On the Dashboard, check the Available Modules and Enabled Modules counters. Go to the Modules tab and move a module from Available Modules to Enabled Modules using drag & drop. Verify the change in the Modules tab, then return to the Dashboard and verify the counters updated accordingly. Go back to the Modules tab and move the same module back to Available Modules. Finally, return to the Dashboard and verify that the counters have returned to their original values.",
+  "success_criteria": [
+    "The Available Modules counter is displayed on the Dashboard.",
+    "The Enabled Modules counter is displayed on the Dashboard.",
+    "The Modules tab displays the Available Modules and Enabled Modules lists.",
+    "A module initially available has been moved to Enabled Modules via drag & drop in the Modules tab.",
+    "The moved module is displayed in Enabled Modules after the operation.",
+    "The Dashboard counters reflect the updated module count after the move.",
+    "The same module has been moved back to Available Modules in the Modules tab.",
+    "The Dashboard counters have returned to their original values.",
+    "The Dashboard is displayed correctly after the operations."
+  ]
+}

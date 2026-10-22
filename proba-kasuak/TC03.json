@@ -1,0 +1,33 @@
+{
+  "id": "TC03",
+  "name": "User Management",
+  "description": "Manage users using the Users interface, including creation, modification, deletion, sorting, column reordering, and multiple selection.",
+  "preconditions": [
+    "The application is running.",
+    "The main application window is displayed.",
+    "The Users section is displayed.",
+    "At least two users are present in the users table."
+  ],
+  "test_data": {
+    "new_user": {
+      "name": "testuser",
+      "role": "Guest",
+      "enabled": false
+    },
+    "edited_user": {
+      "name": "editeduser"
+    }
+  },
+  "goal": "In the Users section, create a new user named 'testuser' by selecting the specified role and Enabled state. Change the Enabled state of a user, edit a user's name to 'editeduser', and delete the newly created 'testuser' using the contextual menu. Reorder the table columns by dragging a column header to a new position and sort the table content by clicking a column header. Finally, select multiple users in the table simultaneously.",
+  "success_criteria": [
+    "A new user has been created with the specified name.",
+    "The specified role has been selected for the new user.",
+    "The Enabled state of the new user has been set as specified.",
+    "The Enabled state of a user has been changed.",
+    "A user's name has been edited successfully.",
+    "The newly created user has been deleted using the contextual menu.",
+    "A table column has been reordered by dragging its header.",
+    "The table content has been sorted by clicking a column header.",
+    "Multiple users have been selected simultaneously."
+  ]
+}

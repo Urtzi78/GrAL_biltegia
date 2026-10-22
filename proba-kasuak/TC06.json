@@ -1,0 +1,21 @@
+{
+  "id": "TC06",
+  "name": "Menus and Tooltips",
+  "description": "Interact with the application's menus, verify their actions through the status bar, and display toolbar tooltips.",
+  "preconditions": [
+    "The application is running.",
+    "The main application window is displayed."
+  ],
+  "test_data": {},
+  "goal": "Use the File menu to access New, Open, Export PDF, and Export JSON. Use the Edit menu to access Copy and Paste. Verify each action through the status bar. Open the About dialog from the Help menu and close it. Finally, hover over the user-management toolbar buttons to display their tooltips.",
+  "success_criteria": [
+    "The New action has been selected from the File menu and the status bar reflects the action.",
+    "The Open action has been selected from the File menu and the status bar reflects the action.",
+    "The Export PDF action has been selected from the File menu and the status bar reflects the action.",
+    "The Export JSON action has been selected from the File menu and the status bar reflects the action.",
+    "The Copy action has been selected from the Edit menu and the status bar reflects the action.",
+    "The Paste action has been selected from the Edit menu and the status bar reflects the action.",
+    "The About dialog has been opened and closed.",
+    "The relevant user-management toolbar tooltips have been displayed."
+  ]
+}

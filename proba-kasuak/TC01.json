@@ -1,0 +1,20 @@
+{
+  "id": "TC01",
+  "name": "Login",
+  "description": "Authenticate into the application using the default test credentials.",
+  "preconditions": [
+    "The application is running.",
+    "The login screen is displayed."
+  ],
+  "test_data": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "goal": "Log in to the application using the provided credentials. Before logging in, show the password, hide it again, open the 'Forgot password?' link, check that the credentials are correct, close the resulting dialog, and then log in.",
+  "success_criteria": [
+    "The password visibility has been toggled on and off.",
+    "The 'Forgot password?' dialog has been opened and closed.",
+    "The application has been successfully logged in.",
+    "The main application window is displayed."
+  ]
+}
